@@ -1,0 +1,57 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 100px;
+  background-color: #101010;
+  color: #fff;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  height: 100%;
+  margin: 0;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a li {
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 20px;
+  color: white;
+}
+
+.navigation a:hover {
+  background-color: gray;
+  color: #101010;
+}
+
+.content {
+  padding: 20px;
+  margin: 20px;
+}
+
+.leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg {
+  float: right; /* Выравнивание по правому краю  */
+  margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
